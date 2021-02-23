@@ -201,7 +201,7 @@ public class DescendantHealth extends Fragment implements View.OnClickListener, 
         switch (status) {
             case "datacovid":
                 mIsComparingView = false;
-                mTodayCasesIcon.setImageResource(R.drawable.ic_today);
+                mTodayCasesIcon.setImageResource(R.drawable.ic_cases_today);
                 mTodayDeathsIcon.setImageResource(R.drawable.ic_deaths);
                 mTotalCasesIcon.setImageResource(R.drawable.ic_total_cases);
                 mCriticalCasesIcon.setImageResource(R.drawable.ic_hospital);
